@@ -73,7 +73,7 @@ Inventory: {json.dumps(inventory, separators=(',', ':'))}"""
         payload = {
             "model": self._model,
             "temperature": 0.35,
-            "max_tokens": 350,
+            "max_tokens": 500,
             "response_format": {"type": "json_object"},
             "messages": [
                 {

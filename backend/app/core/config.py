@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     gemini_api_key_3: str | None = None
     gemini_model: str = "gemini-3.5-flash"
     groq_api_key: str | None = Field(default=None, validation_alias="GROQ_API_KEY")
-    groq_outfit_model: str = "llama-3.3-70b-versatile"
+    groq_outfit_model: str = "qwen/qwen3.8-27b"
     rapidapi_key: str | None = Field(default=None, validation_alias="RAPIDAPI_KEY")
     cloudinary_cloud_name: str | None = None
     cloudinary_api_key: str | None = None
